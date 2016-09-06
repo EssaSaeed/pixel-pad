@@ -1,3 +1,9 @@
+h1 {
+    font-family: monospace;
+    font-size: 3em;
+    margin: 0.5em;
+}
+
 .cube {
     background-color: azure;
     float: left;
@@ -9,8 +15,8 @@
 }
 
 #container {
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     background-color: coral;
     margin: 0 auto;
 }
