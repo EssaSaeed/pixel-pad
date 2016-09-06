@@ -1,0 +1,47 @@
+.cube {
+    background-color: azure;
+    float: left;
+    display: inline;
+}
+
+.highlightedCube {
+    background-color: crimson;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+    margin: 0 auto;
+}
+
+body {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+#bar{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    top: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=number]{
+    color: #4CAF50;
+    border: 2px solid #555;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

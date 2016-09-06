@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>Pixel Pad by Essa Saeed</title>
+    <link type="text/css" rel="stylesheet" href="pixelpad.css"/>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="pixelpad.js"></script>
+</head>
+<body onload = "loadPage(16)">
+    <div id="bar">
+        Grid Dimension: <input id="gridSize" type="number" name="gridDimension" value="16">
+        <button class="button" id="newGrid_btn" onclick="newGrid()">Generate Grid</button>
+        <button class="button" id="clear_btn" onclick="refresh()">Clear</button>
+    </div>
+    <div id="container"></div>
+</body>
+</html>
