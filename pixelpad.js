@@ -5,9 +5,8 @@ function loadPage(numberOfDivs){
         for(var j=0; j<numberOfDivs; j++){
             $container.append("<div class='cube'></div>");
         }
-        $container.append("<br>");
     }
-    var dimension = (100.0/numberOfDivs);
+    var dimension = parseFloat(100.0/numberOfDivs);
             $('.cube').width(dimension + "%");
             $('.cube').height(dimension + "%");
     
